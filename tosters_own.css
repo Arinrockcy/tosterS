@@ -1,0 +1,107 @@
+.tosters {
+  padding: 15px;
+  position:fixed;
+   bottom:5%;
+ white-space: nowrap;
+  border: 1px solid transparent;
+  border-radius: 4px;
+ left: 30% !important;
+ z-index:999;
+ -webkit-text-shadow: 0 1px 0 #ffffff;
+  text-shadow: 0 1px 0 #ffffff;
+
+  text-align: center;
+
+}
+
+@media (max-width:600px)  { .tosters { left: 0% !important;}}
+
+
+.tosters h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.tosters .tosters-link {
+  font-weight: bold;
+}
+.tosters > p,
+.tosters > ul {
+  margin-bottom: 0;
+}
+.tosters > p + p {
+  margin-top: 5px;
+}
+.tosters-body > a{text-decoration:none;}
+.tosters-dismissable,
+.tosters-dismissible {
+  padding-right: 35px;
+}
+.tosters-dismissable .close,
+.tosters-dismissible .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+.tosters-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.tosters-success hr {
+  border-top-color: #c9e2b3;
+}
+.tosters-success .tosters-link {
+  color: #2b542c;
+}
+.tosters-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.tosters-info hr {
+  border-top-color: #a6e1ec;
+}
+.tosters-info .tosters-link {
+  color: #245269;
+}
+.tosters-warning {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.tosters-warning hr {
+  border-top-color: #f7e1b5;
+}
+.tosters-warning .tosters-link {
+  color: #66512c;
+}
+.tosters-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.tosters-danger hr {
+  border-top-color: #e4b9c0;
+}
+.tosters-danger .tosters-link {
+  color: #843534;
+}
+.close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
